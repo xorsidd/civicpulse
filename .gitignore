@@ -1,0 +1,36 @@
+# ==========================================
+# Dependencies & Build Outputs (DO NOT UPLOAD)
+# ==========================================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+target/
+backend/target/
+*.jar
+*.war
+
+# ==========================================
+# Environment Variables & Secrets (DO NOT UPLOAD)
+# ==========================================
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# ==========================================
+# User Uploaded Media & Temporary Data (DO NOT UPLOAD)
+# ==========================================
+uploads/
+backend/uploads/
+*.log
+logs/
+
+# ==========================================
+# IDE & System Files (DO NOT UPLOAD)
+# ==========================================
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
